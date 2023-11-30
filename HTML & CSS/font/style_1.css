@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+#fontCSS{
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 900;
+}
+
+#textCSS{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    letter-spacing: 5px;
+    word-spacing: 20PX;
+
+    /* direction: rtl; */
+    direction: ltr;
+
+    /* text-indent: 50px; */
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
