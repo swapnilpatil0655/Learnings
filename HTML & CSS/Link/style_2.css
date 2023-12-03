@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+b{
+    font-size: 30px;
+}
+
+/* Unvisited link */
+a:link{color:red}
+
+/* Visited link */
+a:visited{color: green;}
+
+/* Mouse over link */
+a:hover{color:yellow}
+
+/* Selected link */
+a:active{color:blue}
+
+
+c{color: red;}
+cg{color: green;}
+cd{color: yellow;background-color: black;}
+z{color: blue;}
