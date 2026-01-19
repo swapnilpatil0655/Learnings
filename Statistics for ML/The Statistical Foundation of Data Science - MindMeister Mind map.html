@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://www.mindmeister.com/app/map/3918796016 -->
+<html translate="no" class="notranslate" lang="en-US" xml:lang="en-US" dir="ltr" data-rs-theme="bridge" data-rs-color-mode="light" style="--canvas-translate-x: 820.9488217110465px; --canvas-translate-y: 375.01826266547283px; --canvas-scale: 0.5964135634899137; --canvas-transition-property: none; --canvas-transition-duration: 0.5s; --canvas-transition-timing-fn: ease-in-out;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="origin-when-cross-origin"><link rel="icon" href="https://www.mindmeister.com/app/assets/favicon-Dwmw4IY_.ico?v2025" type="image/x-icon"><meta name="apple-itunes-app" content="app-id=381073026"><script type="module" crossorigin="" src="./The Statistical Foundation of Data Science - MindMeister Mind map_files/index-DHGbqKZg.js.download"></script><link rel="stylesheet" crossorigin="" href="./The Statistical Foundation of Data Science - MindMeister Mind map_files/index-DdfbXPiG.css"><style>#cb-wrapper {
+  font-size: 15px;
+  color: #3D474D;
+  align-items: center;
+  justify-content: center;
+  animation: presentCard 0.5s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  display: flex;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  z-index: 9999;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 25px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.07), 0 5px 10px -5px rgba(0,0,0,0.15);
+  max-width: 70vw;
+  width: 100%;
+}
+
+#cb-wrapper fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#cb-wrapper a {
+  color: #00AAFF;
+  font-size: inherit;
+}
+
+.cb-button {
+  -webkit-appearance: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: white !important;
+  background-color: #00AAFF;
+  border: 1px solid #00AAFF;
+  border-radius: 60px;
+  font-size: 15px;
+  line-height: 36px;
+  height: 36px;
+  padding: 0 20px;
+  resize: none;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.cb-button:hover {
+  box-shadow: 0 5px 10px -5px rgba(0, 170, 255, 0.8);
+}
+
+.cb-button:active {
+  border-color: #0090F7;
+  background-color: #0090F7;
+  box-shadow: none !important;
+}
+
+.cb-label {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.cb-checkbox,
+input[type="checkbox"].cb-checkbox,
+input[type="checkbox"].cb-checkbox:focus {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 16px !important;
+  height: 16px !important;
+  padding: 0 !important;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #DCE2E6;
+  vertical-align: baseline;
+  cursor: pointer;
+  border-radius: 5px !important;
+  margin-right: 8px;
+  transition: all 0.4s ease-in-out;
+  background-size: 70%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  visibility: visible;
+  outline: none;
+}
+
+.cb-checkbox:checked,
+input[type="checkbox"].cb-checkbox:checked {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMTI0IDEyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3BhY2U9InByZXNlcnZlIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEuNDE0MjE7Ij48cGF0aCBkPSJNMTEyLjUwNiw4LjNjMS44NjcsMC4xODggMy42NCwwLjY3NSA1LjI3NywxLjYxNWM0LjUyLDIuNTk2IDYuOTcsNy45MSA2LjAxLDEzLjAzMmMtMC4zNDYsMS44NTUgLTEuMTI3LDMuNTIgLTIuMTk1LDUuMDYzYy0yMi4yMzgsMjguNTUgLTQ1LjI4Niw1Ni40ODMgLTY5LjA4OCw4My43NDJjLTAuOTc4LDEuMDAyIC0yLjA0LDEuODcgLTMuMjgsMi41M2MtMy4yOTcsMS43NTYgLTcuMywxLjkyMiAtMTAuNzMsMC40NDdjLTEuMjksLTAuNTYgLTIuNDIsLTEuMzQgLTMuNDgsLTIuMjZjLTEwLjk1NywtMTAuNjIgLTIxLjYyMywtMjEuNTYgLTMxLjk3LC0zMi43OWMtMS42NDQsLTEuOTkgLTIuNzMsLTQuMzEgLTIuOTksLTYuOWMtMC4xMzcsLTEuMzg3IC0wLjA0LC0yLjc5NCAwLjI4NywtNC4xNDdjMS4yODIsLTUuMzEgNi4wNTcsLTkuMjQgMTEuNTE1LC05LjQ4YzEuNjIyLC0wLjA3IDMuMjU2LDAuMTggNC43ODIsMC43NGMxLjc3MywwLjY0NCAzLjI4OCwxLjY4NyA0LjYzNSwyLjk5M2wyMS4zNSwyMS45YzE5Ljk1LC0yNC4xOCAzOS4yNCwtNDguOTIgNTkuODYsLTcyLjUzMmMwLjQ5LC0wLjUgMC40ODQsLTAuNDk3IDEsLTAuOTY2YzAuNTQsLTAuNDQ0IDEuMDg0LC0wLjg2NCAxLjY4NCwtMS4yMjdjMS44MiwtMS4xIDMuODI0LC0xLjY0IDUuOTMyLC0xLjc4MmMwLjcsLTAuMDEgMC42OTUsLTAuMDEgMS4zOSwwLjAyNGwwLjAxMSwtMC4wMDJaIiBzdHlsZT0iZmlsbDojZmZmO2ZpbGwtcnVsZTpub256ZXJvOyIvPjwvc3ZnPg==);
+  background-color: #00AAFF;
+  border-color: #00AAFF;
+}
+
+.cb-checkbox.disabled,
+input[type="checkbox"].cb-checkbox.disabled {
+  pointer-events: none;
+  background-color: #B2BBC0;
+  border-color: #B2BBC0;
+}
+
+@keyframes presentCard {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style><style>#cb-collapsed {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+
+#cb-collapsed-text {
+  margin-left: 24px;
+  margin-right: 30px;
+}
+
+#cb-collapsed-cookie {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  flex-shrink: 0;
+}
+
+#cb-collapsed-actions {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#cb-btn-customize {
+  white-space: nowrap;
+  font-weight: 300;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  #cb-collapsed {
+    flex-direction: column;
+  }
+
+  #cb-collapsed img {
+    display: none;
+  }
+}
+</style><style>#cb-expanded {
+  max-height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  /* this shrinks somehow the two elements when height is not enough for their visibility */
+  /* IE magic */
+  overflow-y: auto;
+}
+
+#cb-expanded-header-row {
+  display: flex;
+  align-items: center;
+}
+
+#cb-expanded-header-text {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+#cb-expanded-cookie {
+  height: 24px;
+  width: 24px;
+}
+
+#cb-expanded-desc-wrapper {
+  flex-grow: 1;
+  overflow: auto;
+  margin: 20px 0;
+}
+
+.cb-expanded-desc:last-child {
+  margin-top: 20px;
+}
+
+#cb-expanded-form-wrapper {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+#cb-expanded-form-header {
+  font-weight: 700;
+}
+
+#cb-expanded-actions {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#cb-expanded-section {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#cb-btn-accept-selected {
+  font-weight: 300;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.cb-details {
+  color: #8A9499;
+  font-size: 13px;
+  margin-left: 28px;
+  margin-bottom: 10px;
+}
+
+.cb-disclosure {
+  width: 12px;
+  height: 12px;
+  margin-left: 12px;
+}
+
+.flipped {
+  transform: rotate(180deg);
+}
+</style><style id="meisterlabs-iterable-styles">
+#iterable-iframe, 
+#absolute-dismiss-button,
+[data-test-overlay="true"] { 
+  pointer-events: all; 
+}
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style><style>
+  @keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slidein {
+    100% { transform: translateX(0%) }
+  }
+
+  @-moz-keyframes slidein {
+    100% { -moz-transform: translateX(0%) }
+  }
+
+  @-webkit-keyframes slidein {
+    100% { -webkit-transform: translateX(0%) }
+  }
+
+  @-ms-keyframes slidein {
+    100% { -ms-transform: translateX(0%) }
+  }
+
+  @keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { transform: translateX(150%) }
+  }
+
+  @-moz-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -moz-transform: translateX(150%) }
+  }
+
+  @-webkit-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -webkit-transform: translateX(150%) }
+  }
+
+  @-ms-keyframes slideout {
+    0% { transform: translateX(0%) }
+    100% { -ms-transform: translateX(150%) }
+  }
+
+  .slide-in {
+    -webkit-animation: slidein 400ms forwards;
+    -moz-animation: slidein 400ms forwards;
+    -ms-animation: slidein 400ms forwards;
+    -o-animation: slidein 400ms forwards;
+    animation: slidein 400ms forwards;
+  }
+
+  .slide-out {
+    -webkit-animation: slideout 400ms forwards;
+    -moz-animation: slideout 400ms forwards;
+    -ms-animation: slideout 400ms forwards;
+    -o-animation: slideout 400ms forwards;
+    animation: slideout 400ms forwards;
+  }
+
+  .fade-in {
+    -webkit-animation: fadein 400ms;
+    -moz-animation: fadein 400ms;
+    -ms-animation: fadein 400ms;
+    -o-animation: fadein 400ms;
+    animation: fadein 400ms;
+  }
+
+  .fade-out {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0s 400ms, opacity 400ms linear;
+    -moz-transition: visibility 0s 400ms, opacity 400ms linear;
+    -ms-transition: visibility 0s 400ms, opacity 400ms linear;
+    -o-transition: visibility 0s 400ms, opacity 400ms linear;
+    transition: visibility 0s 400ms, opacity 400ms linear;
+  }
+</style></head><body spellcheck="false" style="" class=""><div id="DOM_CONTAINER" style="position:fixed;top:0;left:0;right:0;bottom:0;z-index:0"><div class=" Theme-module_root__qzKFv  Reshaped-module_root__nQ-Z2"><title>The Statistical Foundation of Data Science - MindMeister Mind map</title><script>window.dataLayer = window.dataLayer || [];</script><script>window.dataLayer.push({"gtm.start":1768838662758,"event":"gtm.js"})</script><script src="./The Statistical Foundation of Data Science - MindMeister Mind map_files/gtm.js.download" async=""></script><script>window.dataLayer.push({"UserAuth":"login_true","isStatic":"false","userID":129352082,"languageUsed":"en","userCountry":"India","userPlan":"basic","userEmail":"becow28117@noihse.com"})</script><div class=" View-module_root__0JKpr  width-module_root__q31bZ  width-module_--type-literal__UL39L  height-module_root__mhZBQ  height-module_--type-literal__qqiLE View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-w-s: 100%; --rs-h-s: 100%;"><div class="kr-view" style="flex-direction: column; flex-grow: 1; flex-shrink: 1; width: 100%; height: 100%;"><div class="kr-view" style="position: relative; flex-grow: 1; flex-shrink: 1; pointer-events: all;"><div class="kr-view" style="position: absolute; inset: 0px; user-select: none;"><div class="kr-view" style="flex-grow: 1;"><div><div><div><div style="position: absolute; inset: 0px; overflow: hidden; background-color: rgb(51, 59, 64);"><div style="position: absolute; inset: 0px; visibility: hidden;"></div><div class="canvas-scene"><svg class="canvas-lines" style="width: 1e+06px; height: 1e+06px; transform: translate(-500000px, -500000px); position: absolute; top: 0px; left: 0px; pointer-events: none;"><path d="M 0 0.5 L 287 -249" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(64, 112, 255); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 645 -249 L 661 -249" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(64, 112, 255); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 0 0.5 L 287 -158.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(161, 121, 242); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 599 -158.5 L 615 -158.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(161, 121, 242); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 0 0.5 L 287 -77.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(247, 87, 140); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 542 -77.5 L 558 -77.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(247, 87, 140); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 0 0.5 L 287 3.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(255, 64, 25); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 554 3.5 L 570 3.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(255, 64, 25); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 0 0.5 L 287 84.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(255, 170, 0); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 474 84.5 L 490 84.5" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(255, 170, 0); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 0 0.5 L 287 175" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(255, 212, 38); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 0 0.5 L 287 263" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(150, 219, 11); stroke-linecap: round; transform: translate(500000px, 500000px);"></path><path d="M 506 263 L 522 263" style="fill: transparent; opacity: 1; stroke-width: 4; stroke: rgb(150, 219, 11); stroke-linecap: round; transform: translate(500000px, 500000px);"></path></svg><div style="top: 0px; left: 0px; cursor: pointer; width: 20px; height: 20px; position: absolute; border-radius: 100%; background-color: rgb(51, 59, 64); transform: translateX(656px) translateY(-259px); border: 4px solid rgb(64, 112, 255);"><div class="kr-view" style="display: inline-flex; max-width: 100%; position: absolute; inset: 0px;"><div style="width: 5px; height: 5px; background-color: rgb(64, 112, 255); border-radius: 100%; transform: translateX(-50%) translateY(-50%); position: absolute; top: 50%; left: 50%;"></div></div></div><div style="top: 0px; left: 0px; cursor: pointer; width: 20px; height: 20px; position: absolute; border-radius: 100%; background-color: rgb(51, 59, 64); transform: translateX(610px) translateY(-168.5px); border: 4px solid rgb(161, 121, 242);"><div class="kr-view" style="display: inline-flex; max-width: 100%; position: absolute; inset: 0px;"><div style="width: 5px; height: 5px; background-color: rgb(161, 121, 242); border-radius: 100%; transform: translateX(-50%) translateY(-50%); position: absolute; top: 50%; left: 50%;"></div></div></div><div style="top: 0px; left: 0px; cursor: pointer; width: 20px; height: 20px; position: absolute; border-radius: 100%; background-color: rgb(51, 59, 64); transform: translateX(553px) translateY(-87.5px); border: 4px solid rgb(247, 87, 140);"><div class="kr-view" style="display: inline-flex; max-width: 100%; position: absolute; inset: 0px;"><div style="width: 5px; height: 5px; background-color: rgb(247, 87, 140); border-radius: 100%; transform: translateX(-50%) translateY(-50%); position: absolute; top: 50%; left: 50%;"></div></div></div><div style="top: 0px; left: 0px; cursor: pointer; width: 20px; height: 20px; position: absolute; border-radius: 100%; background-color: rgb(51, 59, 64); transform: translateX(565px) translateY(-6.5px); border: 4px solid rgb(255, 64, 25);"><div class="kr-view" style="display: inline-flex; max-width: 100%; position: absolute; inset: 0px;"><div style="width: 5px; height: 5px; background-color: rgb(255, 64, 25); border-radius: 100%; transform: translateX(-50%) translateY(-50%); position: absolute; top: 50%; left: 50%;"></div></div></div><div style="top: 0px; left: 0px; cursor: pointer; width: 20px; height: 20px; position: absolute; border-radius: 100%; background-color: rgb(51, 59, 64); transform: translateX(485px) translateY(74.5px); border: 4px solid rgb(255, 170, 0);"><div class="kr-view" style="display: inline-flex; max-width: 100%; position: absolute; inset: 0px;"><div style="width: 5px; height: 5px; background-color: rgb(255, 170, 0); border-radius: 100%; transform: translateX(-50%) translateY(-50%); position: absolute; top: 50%; left: 50%;"></div></div></div><div style="top: 0px; left: 0px; cursor: pointer; width: 20px; height: 20px; position: absolute; border-radius: 100%; background-color: rgb(51, 59, 64); transform: translateX(517px) translateY(253px); border: 4px solid rgb(150, 219, 11);"><div class="kr-view" style="display: inline-flex; max-width: 100%; position: absolute; inset: 0px;"><div style="width: 5px; height: 5px; background-color: rgb(150, 219, 11); border-radius: 100%; transform: translateX(-50%) translateY(-50%); position: absolute; top: 50%; left: 50%;"></div></div></div><div data-id="3918796016" style="border-color: rgb(255, 255, 255); border-width: 2px; border-style: solid; align-items: center; background-color: rgb(255, 255, 255); border-radius: 0px; display: flex; flex-direction: column; min-height: 32.5px; left: 0px; position: absolute; top: 0px; transform: translateX(-236px) translateY(-68px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 18.2px; display: flex; flex-direction: row; align-items: center; flex-grow: 1;"><div class="kr-view" style="align-self: center; margin-right: 18.2px;"><div class="kr-view" style="width: 100%; height: 100%; flex-grow: 1; flex-shrink: 1;"><div class="kr-view" style="width: 69px; height: 69px; flex-shrink: 1; margin-left: auto; margin-right: auto; justify-content: center;"><div class="kr-view" style="flex-grow: 1; flex-shrink: 1;"><img class="kr-view" src="./The Statistical Foundation of Data Science - MindMeister Mind map_files/Trending.svg" style="width: 69px; height: 69px; flex-grow: 1; flex-shrink: 1; pointer-events: none; border-radius: 10px;"></div><div class="kr-view" style="width: 15px; height: 15px; position: absolute; bottom: -6px; right: -6px; border-right-width: 4px; border-bottom-width: 4px; cursor: nwse-resize; opacity: 0; border-color: rgb(0, 170, 255);"></div></div></div></div><div style="display: flex; align-items: center; flex-shrink: 1;"><div class="node-title" dir="auto" style="color: rgb(61, 71, 77); font-size: 26px; font-style: normal; font-weight: bold; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none; text-align: center;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">The Statistical</span><div class="ml-react-markdown-inline-token ml-react-markdown-token-carriagereturn" data-ml-markdown-id="0-0-1" style="width: 100%;"></div><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-2">Foundation of Data</span><div class="ml-react-markdown-inline-token ml-react-markdown-token-carriagereturn" data-ml-markdown-id="0-0-3" style="width: 100%;"></div><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-4">Science</span></div></div></div><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-p-start-s: 2; --rs-align-s: center; --rs-justify-s: center;"><div><button aria-describedby=":r4ag:" aria-haspopup="menu" aria-expanded="false" aria-label="Media" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--rounded__dYzcb Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M16.590287,3 C18.8190838,3 19.6272994,3.23206403 20.4421143,3.66783176 C21.2569291,4.10359949 21.8964005,4.74307093 22.3321682,5.55788574 C22.767936,6.37270056 23,7.18091615 23,9.409713 L23,14.590287 C23,16.8190838 22.767936,17.6272994 22.3321682,18.4421143 C21.8964005,19.2569291 21.2569291,19.8964005 20.4421143,20.3321682 C19.6272994,20.767936 18.8190838,21 16.590287,21 L7.409713,21 C5.18091615,21 4.37270056,20.767936 3.55788574,20.3321682 C2.74307093,19.8964005 2.10359949,19.2569291 1.66783176,18.4421143 C1.23206403,17.6272994 1,16.8190838 1,14.590287 L1,9.409713 C1,7.18091615 1.23206403,6.37270056 1.66783176,5.55788574 C2.10359949,4.74307093 2.74307093,4.10359949 3.55788574,3.66783176 C4.37270056,3.23206403 5.18091615,3 7.409713,3 L16.590287,3 Z M6.5,15.4142136 L3.84060047,18.0747989 C4.0398627,18.283141 4.27211883,18.4588542 4.53473144,18.5993009 C4.99306478,18.8444203 5.44791805,18.9821178 6.60486756,18.9983725 L6.8458278,19 L7.459,19 L8.772,17.687 L6.5,15.4142136 Z M15.875,13.4142136 L10.289,19 L17.1541722,19 C18.4914503,19 18.9763797,18.8607616 19.4652686,18.5993009 C19.8087285,18.4156166 20.1002639,18.1716093 20.3339747,17.8731793 L15.875,13.4142136 Z M17.1541722,5 L6.8458278,5 C5.50854969,5 5.02362033,5.13923842 4.53473144,5.40069906 C4.04584256,5.66215969 3.66215969,6.04584256 3.40069906,6.53473144 C3.15557971,6.99306478 3.01788223,7.44791805 3.00162755,8.60486756 L3,8.8458278 L3,15.1541722 C3,15.5101072 3.00986409,15.8056591 3.02927141,16.0569744 L5.79289322,13.2928932 C6.18341751,12.9023689 6.81658249,12.9023689 7.20710678,13.2928932 L10.187,16.272 L15.1678932,11.2928932 C15.5584175,10.9023689 16.1915825,10.9023689 16.5821068,11.2928932 L20.990583,15.7033168 C20.9942444,15.6063997 20.9968448,15.5038669 20.9983725,15.3951324 L21,15.1541722 L21,8.8458278 C21,7.50854969 20.8607616,7.02362033 20.5993009,6.53473144 C20.3378403,6.04584256 19.9541574,5.66215969 19.4652686,5.40069906 C19.0069352,5.15557971 18.5520819,5.01788223 17.3951324,5.00162755 L17.1541722,5 L6.8458278,5 Z M8.5,11.4289322 C7.11928813,11.4289322 6,10.3096441 6,8.92893219 C6,7.54822031 7.11928813,6.42893219 8.5,6.42893219 C9.88071187,6.42893219 11,7.54822031 11,8.92893219 C11,10.3096441 9.88071187,11.4289322 8.5,11.4289322 Z"></path></svg></span></span></button><button aria-describedby=":r4am:" aria-haspopup="menu" aria-expanded="false" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--rounded__dYzcb Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.38 17a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h10.38zM20 13a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h16zm-5-4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h11zm4-8a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0V6h-2a1 1 0 0 1 0-2h2V2a1 1 0 0 1 1-1zm-6 4a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2h9z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span></button></div></div></div></div></div></div></div><div data-id="3918796020" style="align-items: center; background-color: rgb(64, 112, 255); border-radius: 0px; display: flex; flex-direction: column; min-height: 23.75px; left: 0px; position: absolute; top: 0px; transform: translateX(286px) translateY(-286px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 13.3px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;"><div style="display: flex; align-items: center; flex-shrink: 0;"><div class="node-title" dir="auto" style="color: rgb(255, 255, 255); font-size: 19px; font-style: normal; font-weight: normal; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">Role of STatistics in Data</span><div class="ml-react-markdown-inline-token ml-react-markdown-token-carriagereturn" data-ml-markdown-id="0-0-1" style="width: 100%;"></div><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-2">Science</span></div></div></div><div class=" View-module_root__0JKpr _dark_1luw9_1 View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-p-start-s: 2; --rs-align-s: center; --rs-justify-s: center;"><div><button aria-describedby=":r4g0:" aria-haspopup="menu" aria-expanded="false" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--rounded__dYzcb Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.38 17a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h10.38zM20 13a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h16zm-5-4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h11zm4-8a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0V6h-2a1 1 0 0 1 0-2h2V2a1 1 0 0 1 1-1zm-6 4a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2h9z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span></button></div></div></div></div></div></div></div><div data-id="3918796018" style="align-items: center; background-color: rgb(161, 121, 242); border-radius: 0px; display: flex; flex-direction: column; min-height: 23.75px; left: 0px; position: absolute; top: 0px; transform: translateX(286px) translateY(-186px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 13.3px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;"><div style="display: flex; align-items: center; flex-shrink: 0;"><div class="node-title" dir="auto" style="color: rgb(255, 255, 255); font-size: 19px; font-style: normal; font-weight: normal; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">Descriptive Statistics</span></div></div></div><div class=" View-module_root__0JKpr _dark_1luw9_1 View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-p-start-s: 2; --rs-align-s: center; --rs-justify-s: center;"><div><button aria-describedby=":r4au:" aria-haspopup="menu" aria-expanded="false" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--rounded__dYzcb Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.38 17a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h10.38zM20 13a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h16zm-5-4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h11zm4-8a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0V6h-2a1 1 0 0 1 0-2h2V2a1 1 0 0 1 1-1zm-6 4a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2h9z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span></button></div></div></div></div></div></div></div><div data-id="3918796019" style="align-items: center; background-color: rgb(247, 87, 140); border-radius: 0px; display: flex; flex-direction: column; min-height: 23.75px; left: 0px; position: absolute; top: 0px; transform: translateX(286px) translateY(-105px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 13.3px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;"><div style="display: flex; align-items: center; flex-shrink: 0;"><div class="node-title" dir="auto" style="color: rgb(255, 255, 255); font-size: 19px; font-style: normal; font-weight: normal; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">Probablity Theory</span></div></div></div><div class=" View-module_root__0JKpr _dark_1luw9_1 View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-p-start-s: 2; --rs-align-s: center; --rs-justify-s: center;"><div><button aria-describedby=":r4b2:" aria-haspopup="menu" aria-expanded="false" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--rounded__dYzcb Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.38 17a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h10.38zM20 13a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h16zm-5-4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h11zm4-8a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0V6h-2a1 1 0 0 1 0-2h2V2a1 1 0 0 1 1-1zm-6 4a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2h9z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span></button></div></div></div></div></div></div></div><div data-id="3918796021" style="align-items: center; background-color: rgb(255, 64, 25); border-radius: 0px; display: flex; flex-direction: column; min-height: 23.75px; left: 0px; position: absolute; top: 0px; transform: translateX(286px) translateY(-24px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 13.3px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;"><div style="display: flex; align-items: center; flex-shrink: 0;"><div class="node-title" dir="auto" style="color: rgb(255, 255, 255); font-size: 19px; font-style: normal; font-weight: normal; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">Hypothesis Testing</span></div></div></div><div class=" View-module_root__0JKpr _dark_1luw9_1 View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-p-start-s: 2; --rs-align-s: center; --rs-justify-s: center;"><div><button aria-describedby=":r4b6:" aria-haspopup="menu" aria-expanded="false" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--rounded__dYzcb Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.38 17a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h10.38zM20 13a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h16zm-5-4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h11zm4-8a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0V6h-2a1 1 0 0 1 0-2h2V2a1 1 0 0 1 1-1zm-6 4a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2h9z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span></button></div></div></div></div></div></div></div><div data-id="3918796022" style="align-items: center; background-color: rgb(255, 170, 0); border-radius: 0px; display: flex; flex-direction: column; min-height: 23.75px; left: 0px; position: absolute; top: 0px; transform: translateX(286px) translateY(57px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 13.3px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;"><div style="display: flex; align-items: center; flex-shrink: 0;"><div class="node-title" dir="auto" style="color: rgb(255, 255, 255); font-size: 19px; font-style: normal; font-weight: normal; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">Regressions</span></div></div></div><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-p-start-s: 2; --rs-align-s: center; --rs-justify-s: center;"><div><button aria-describedby=":r4ba:" aria-haspopup="menu" aria-expanded="false" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--rounded__dYzcb Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.38 17a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h10.38zM20 13a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h16zm-5-4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2h11zm4-8a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0V6h-2a1 1 0 0 1 0-2h2V2a1 1 0 0 1 1-1zm-6 4a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2h9z" fill="currentColor" fill-rule="evenodd"></path></svg></span></span></button></div></div></div></div></div></div></div><div data-id="-186" style="align-items: center; background-color: rgb(255, 212, 38); border-radius: 0px; display: flex; flex-direction: column; min-height: 23.75px; left: 0px; position: absolute; top: 0px; transform: translateX(286px) translateY(138px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 13.3px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;"><div style="display: flex; align-items: center; flex-shrink: 0;"><div class="node-title" dir="auto" style="color: rgb(255, 255, 255); font-size: 19px; font-style: normal; font-weight: normal; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">Analysis of Variance</span><div class="ml-react-markdown-inline-token ml-react-markdown-token-carriagereturn" data-ml-markdown-id="0-0-1" style="width: 100%;"></div><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-2">(ANOVA)</span></div></div></div></div></div></div></div></div><div data-id="-196" style="align-items: center; background-color: rgb(150, 219, 11); border-radius: 0px; display: flex; flex-direction: column; min-height: 23.75px; left: 0px; position: absolute; top: 0px; transform: translateX(286px) translateY(238px); opacity: 1;"><div><div style="display: flex; flex-grow: 1; flex-shrink: 1;"><div style="position: relative; padding: 13.3px; display: flex; flex-direction: column; align-items: center; flex-grow: 1;"><div style="display: flex; align-items: center; flex-shrink: 0;"><div class="node-title" dir="auto" style="color: rgb(255, 255, 255); font-size: 19px; font-style: normal; font-weight: normal; font-family: &quot;JetBrains Mono&quot;, Figtree, &quot;Noto Sans JP&quot;, Helvetica, &quot;system-ui&quot;, Arial, &quot;sans-serif&quot;; line-height: 1.25; box-sizing: content-box; white-space: pre-wrap; min-width: 1px; user-select: none;"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" data-ml-markdown-id="0-0"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw" data-ml-markdown-id="0-0-0">Learning Approach</span></div></div></div></div></div></div></div></div></div></div><div class="canvas-overlay"></div><svg style="top: 0px; left: 0px; position: absolute; width: 100%; height: 100%; pointer-events: none;"></svg></div></div></div><div class=" View-module_root__0JKpr  radius-module_root__88FeT radius-module_--radius-medium__3NSru  border-module_root__cl7Mq border-module_--border-neutral-faded__VxJv2 View-module_--bg-white__cB4qP View-module_--shadow-overlay__bMPCY View-module_--divided__wlENA View-module_--padding__5RDjs View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 2; --rs-view-p-vertical-s: 2; --rs-inset-top-s: 5; --rs-inset-start-s: 5; --rs-align-s: center; --rs-position-s: absolute;"><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 2; --rs-align-s: center;"><button aria-haspopup="menu" aria-expanded="false" aria-label="[object Object]" type="button" class=" Actionable-module_root__E1LVq"><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 2; --rs-view-p-start-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16"><g clip-path="url(#a)"><path fill="#EA3EBF" d="M13.978 8A4.228 4.228 0 1 0 8 2.022 4.228 4.228 0 1 0 2.022 8 4.228 4.228 0 1 0 8 13.978 4.228 4.228 0 1 0 13.978 8Z"></path><path fill="#fff" d="M11.313 4.838a.813.813 0 0 0-1.15 0L8 7l-.528-.528-1.151 1.15L8 9.302l3.313-3.314a.813.813 0 0 0 0-1.15ZM9.923 10.4a.814.814 0 0 0 1.628 0V6.493L9.923 8.12v2.28Z"></path><path fill="#fff" d="M5.838 4.838a.814.814 0 0 0-1.39.575V10.4a.814.814 0 1 0 1.627 0V7.116l1.02-1.02-1.257-1.258Z"></path></g><defs><clippath id="a"><rect width="100%" height="100%" fill="#fff"></rect></clippath></defs></svg></span><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M5.9817145,5.89025827 C5.628124,5.46600339 5.68540879,4.83543512 6.10966366,4.48184462 C6.53391854,4.12825411 7.16448681,4.1855389 7.51807732,4.60979378 L10.0182855,7.60966366 C10.327377,7.98052645 10.327377,8.51926537 10.0182855,8.89012816 L7.51807732,11.889998 C7.16448681,12.3142529 6.53391854,12.3715377 6.10966366,12.0179472 C5.68540879,11.6643567 5.628124,11.0337884 5.9817145,10.6095336 L7.94832824,8.24989591 L5.9817145,5.89025827 Z" transform="rotate(90 8 8.25)"></path></svg></span></div></button><div class=" View-module_root__0JKpr  maxWidth-module_root__GuOQz  maxWidth-module_--type-literal__RECcF" style="--rs-max-w-s: 200px;"><div class=" Text-module_root__T59XM Text-module_--variant-body-3__hrgWO Text-module_--weight-bold__fNaHr"><div class="ml-react-markdown" style="width: 100%;"><div class="ml-react-markdown-block-token ml-react-markdown-token-text" style="white-space: pre; overflow: hidden; text-overflow: ellipsis; word-break: normal; overflow-wrap: normal;"><span class="ml-react-markdown-inline-token ml-react-markdown-token-raw">The StatisticalFoundation of DataScience</span></div></div></div></div></div><div class=" View-module_divider__Rivql"><div role="separator" aria-orientation="vertical" class=" Divider-module_root__f17xJ Divider-module_--blank__06RQg Divider-module_--vertical__R6JX6"></div></div><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 1; --rs-view-p-end-s: 2; --rs-align-s: center;"><div><button aria-describedby="search" aria-haspopup="menu" aria-expanded="false" aria-pressed="false" aria-label="undefined" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs     IconButton-module_root__FfYcw IconButton-module_--emphasis-low__54eT7 Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M10,2 C14.418278,2 18,5.581722 18,10 C18,11.6982633 17.4708292,13.2729322 16.5683799,14.5681143 L21.4393398,19.4393398 C22.0251263,20.0251263 22.0251263,20.9748737 21.4393398,21.5606602 C20.8535534,22.1464466 19.9038059,22.1464466 19.3180195,21.5606602 L14.4243207,16.6662718 C13.1571271,17.5089763 11.6359059,18 10,18 C5.581722,18 2,14.418278 2,10 C2,5.581722 5.581722,2 10,2 Z M10,16 C13.3137085,16 16,13.3137085 16,10 C16,6.6862915 13.3137085,4 10,4 C6.6862915,4 4,6.6862915 4,10 C4,13.3137085 6.6862915,16 10,16 Z"></path></svg></span></button></div><div class=" View-module_root__0JKpr _button_ojsmy_1  radius-module_root__88FeT radius-module_--radius-small__yp5PK  width-module_root__q31bZ  width-module_--type-literal__UL39L" style="--rs-w-s: fit-content;"><button target="_blank" aria-label="Upgrade" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-inherit__3kD2N Button-module_--variant-solid__914eg  Button-module_--size-small__7xcCM"><span class="Button-module_text__r2VYv">Upgrade</span><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP Button-module_--icon-position-end__tLpjU  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-literal__qqiLE" style="--rs-h-s: 1em;"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 5H19V14" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18 6L5.5 18.5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></span></button></div></div></div><div class=" View-module_root__0JKpr  radius-module_root__88FeT radius-module_--radius-medium__3NSru  border-module_root__cl7Mq border-module_--border-neutral-faded__VxJv2 View-module_--bg-white__cB4qP View-module_--shadow-overlay__bMPCY View-module_--divided__wlENA View-module_--padding__5RDjs View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 2; --rs-view-p-vertical-s: 2; --rs-view-p-horizontal-s: 2; --rs-inset-top-s: 5; --rs-inset-end-s: 5; --rs-align-s: center; --rs-justify-s: center; --rs-position-s: absolute;"><div><button aria-describedby=":r4bi:" aria-haspopup="menu" aria-expanded="false" aria-pressed="false" aria-label="undefined" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs     IconButton-module_root__FfYcw IconButton-module_--emphasis-low__54eT7 Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><svg viewBox="0 0 24 24" width="24px" height="24px" data-icon="Export" focusable="false" class="svg-icon"><path fill="currentColor" fill-rule="evenodd" d="M12,10 C12.5522847,10 13,10.4477153 13,11 L13,19.419 L13.875305,18.7191312 C14.3065669,18.3741216 14.9358593,18.444043 15.2808688,18.875305 C15.6258784,19.3065669 15.555957,19.9358593 15.124695,20.2808688 L12,22.7806248 L8.87530495,20.2808688 C8.44404302,19.9358593 8.37412164,19.3065669 8.71913119,18.875305 C9.06414074,18.444043 9.69343311,18.3741216 10.124695,18.7191312 L11,19.419 L11,11 C11,10.4477153 11.4477153,10 12,10 Z M12,0 C15.5825447,0 18.5365042,2.69129297 18.9504053,6.1624056 C21.8577312,6.82415467 24,9.42616894 24,12.5 C24,16.0898509 21.0898509,19 17.5,19 C16.9477153,19 16.5,18.5522847 16.5,18 C16.5,17.4477153 16.9477153,17 17.5,17 C19.9852814,17 22,14.9852814 22,12.5 C22,10.1672016 20.2168169,8.22624171 17.9102489,8.01838573 L17,7.93635881 L17,7 C17,4.23857625 14.7614237,2 12,2 C9.23857625,2 7,4.23857625 7,7 L7,7.93635881 L6.08975114,8.01838573 C3.7831831,8.22624171 2,10.1672016 2,12.5 C2,14.9852814 4.01471863,17 6.5,17 C7.05228475,17 7.5,17.4477153 7.5,18 C7.5,18.5522847 7.05228475,19 6.5,19 C2.91014913,19 0,16.0898509 0,12.5 C0,9.42616894 2.14226876,6.82415467 5.04959472,6.1624056 C5.46349578,2.69129297 8.41745531,0 12,0 Z" transform="translate(0 1)"></path></svg></span></button></div><div class=" View-module_divider__Rivql"><div role="separator" aria-orientation="vertical" class=" Divider-module_root__f17xJ Divider-module_--blank__06RQg Divider-module_--vertical__R6JX6"></div></div><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 2; --rs-align-s: center;"><div class=" View-module_root__0JKpr"><button aria-describedby=":r4bm:" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M13,19 L13,20.322967 L17.3713907,22.0715233 C17.8841742,22.2766367 18.1335901,22.8586072 17.9284767,23.3713907 C17.7233633,23.8841742 17.1413928,24.1335901 16.6286093,23.9284767 L12,22.077 L7.37139068,23.9284767 C6.85860716,24.1335901 6.27663672,23.8841742 6.07152331,23.3713907 C5.8664099,22.8586072 6.11582581,22.2766367 6.62860932,22.0715233 L11,20.322967 L11,19 L13,19 Z M12,0 C12.5522847,0 13,0.44771525 13,1 L13,2 L19.1541722,2 C20.4914503,2 20.9763797,2.13923842 21.4652686,2.40069906 C21.9541574,2.66215969 22.3378403,3.04584256 22.5993009,3.53473144 C22.8607616,4.02362033 23,4.50854969 23,5.8458278 L23,14.1541722 C23,15.4914503 22.8607616,15.9763797 22.5993009,16.4652686 C22.3378403,16.9541574 21.9541574,17.3378403 21.4652686,17.5993009 C20.9763797,17.8607616 20.4914503,18 19.1541722,18 L4.8458278,18 C3.50854969,18 3.02362033,17.8607616 2.53473144,17.5993009 C2.04584256,17.3378403 1.66215969,16.9541574 1.40069906,16.4652686 C1.13923842,15.9763797 1,15.4914503 1,14.1541722 L1,5.8458278 C1,4.50854969 1.13923842,4.02362033 1.40069906,3.53473144 C1.66215969,3.04584256 2.04584256,2.66215969 2.53473144,2.40069906 C3.02362033,2.13923842 3.50854969,2 4.8458278,2 L11,1.999 L11,1 C11,0.44771525 11.4477153,0 12,0 Z M19.7180574,4 L4.2819426,4 C3.83618323,4 3.67454011,4.04641281 3.51157715,4.13356635 C3.34861419,4.2207199 3.2207199,4.34861419 3.13356635,4.51157715 C3.04641281,4.67454011 3,4.83618323 3,5.2819426 L3,5.2819426 L3,14.7180574 C3,15.1638168 3.04641281,15.3254599 3.13356635,15.4884229 C3.2207199,15.6513858 3.34861419,15.7792801 3.51157715,15.8664336 C3.67454011,15.9535872 3.83618323,16 4.2819426,16 L4.2819426,16 L19.7180574,16 C20.1638168,16 20.3254599,15.9535872 20.4884229,15.8664336 C20.6513858,15.7792801 20.7792801,15.6513858 20.8664336,15.4884229 C20.9535872,15.3254599 21,15.1638168 21,14.7180574 L21,14.7180574 L21,5.2819426 C21,4.83618323 20.9535872,4.67454011 20.8664336,4.51157715 C20.7792801,4.34861419 20.6513858,4.2207199 20.4884229,4.13356635 C20.3254599,4.04641281 20.1638168,4 19.7180574,4 L19.7180574,4 Z M9.89218047,6.94327742 L15.152238,9.55672258 C15.6449757,9.80153794 15.6454963,10.1982034 15.152238,10.4432774 L9.89218047,13.0567226 C9.3994428,13.3015379 9,13.0621186 9,12.4970707 L9,7.50292933 C9,6.94902676 9.39892217,6.69820338 9.89218047,6.94327742 Z"></path></svg></span></span></button></div><button data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-primary__55faQ Button-module_--variant-solid__914eg  Button-module_--size-small__7xcCM"><span class="Button-module_text__r2VYv">Share</span></button><div class=" View-module_root__0JKpr  radius-module_root__88FeT radius-module_--radius-circular__lhYtz"><button aria-haspopup="menu" aria-expanded="false" aria-describedby=":r4bu:" type="button" class=" Actionable-module_root__E1LVq Actionable-module_--radius-inherit__cSTYW"><div class=" View-module_root__0JKpr _avatar_1adny_1  radius-module_root__88FeT radius-module_--radius-circular__lhYtz"><div class=" View-module_root__0JKpr  Avatar-module_root__CvUUS  height-module_root__mhZBQ  height-module_--type-unit__nV--F Avatar-module_--color-neutral__oOYk0  radius-module_root__88FeT radius-module_--radius-circular__lhYtz View-module_--bg-neutral__jwLDE" style="--rs-h-s: 8;">B2</div></div></button></div></div></div><div class=" View-module_root__0JKpr _position_amkda_1  radius-module_root__88FeT radius-module_--radius-medium__3NSru  width-module_root__q31bZ  width-module_--type-unit__tHDh0  border-module_root__cl7Mq border-module_--border-neutral-faded__VxJv2 View-module_--bg-white__cB4qP View-module_--shadow-overlay__bMPCY View-module_--divided__wlENA View-module_--padding__5RDjs View-module_--flex__gKArd View-module_--direction-column__FZ7au" style="--rs-view-gap-s: 1; --rs-view-p-vertical-s: 2; --rs-view-p-horizontal-s: 2; --rs-w-s: 11; --rs-align-s: center; --rs-position-s: absolute;"><button aria-describedby=":r4c2:" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 2C19.5228 2 24 6.47715 24 12C24 17.5228 19.5228 22 14 22H10C4.47715 22 0 17.5228 0 12C0 6.47715 4.47715 2 10 2H14ZM14 4H10C5.58172 4 2 7.58172 2 12C2 16.4183 5.58172 20 10 20H14C18.4183 20 22 16.4183 22 12C22 7.58172 18.4183 4 14 4Z" fill="currentColor"></path><path d="M13 9C13 8.44772 12.5523 8 12 8C11.4477 8 11 8.44772 11 9V11H9C8.44772 11 8 11.4477 8 12C8 12.5523 8.44772 13 9 13H11V15C11 15.5523 11.4477 16 12 16C12.5523 16 13 15.5523 13 15V13H15C15.5523 13 16 12.5523 16 12C16 11.4477 15.5523 11 15 11H13V9Z" fill="currentColor"></path></svg></span></span></button><div class=" View-module_divider__Rivql"><div role="separator" class=" Divider-module_root__f17xJ Divider-module_--blank__06RQg"></div></div><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-column__FZ7au" style="--rs-view-gap-s: 1;"><div><button aria-describedby=":r4c4:" aria-haspopup="menu" aria-expanded="false" aria-pressed="false" aria-label="undefined" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs     IconButton-module_root__FfYcw IconButton-module_--emphasis-low__54eT7 Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--disabled__-VJHD Button-module_--icon-only__HErg9 Actionable-module_--disabled__Oicox" disabled="" aria-disabled="true"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M6,2 C7.65685425,2 9,3.34314575 9,5 C9,5.33285018 8.9457934,5.65303974 8.8457265,5.95222238 C9.84659583,6.75422112 10.6439879,7.80044787 11.148103,9.00027892 L12.851897,9.00027892 C13.3560121,7.80044787 14.1534042,6.75422112 15.1543568,5.951315 C15.0542066,5.65303974 15,5.33285018 15,5 C15,3.34314575 16.3431458,2 18,2 L18,2 L20,2 C21.6568542,2 23,3.34314575 23,5 C23,6.65685425 21.6568542,8 20,8 L20,8 L18,8 C17.220884,8 16.5111365,7.70299842 15.9777991,7.21603703 C15.2959826,7.78981178 14.7383325,8.50709411 14.3515312,9.32127105 C15.330019,9.81611543 16,10.8298165 16,12 C16,13.1701835 15.330019,14.1838846 14.3527248,14.6784355 C14.7383325,15.4929059 15.2959826,16.2101882 15.9781505,16.7842449 C16.5111365,16.2970016 17.220884,16 18,16 L18,16 L20,16 C21.6568542,16 23,17.3431458 23,19 C23,20.6568542 21.6568542,22 20,22 L20,22 L18,22 C16.3431458,22 15,20.6568542 15,19 C15,18.6671498 15.0542066,18.3469603 15.1542735,18.0477776 C14.1536813,17.2460011 13.3564536,16.2001313 12.8523157,15.0007174 L11.1476843,15.0007174 C10.6435464,16.2001313 9.84631874,17.2460011 8.84564317,18.048685 C8.9457934,18.3469603 9,18.6671498 9,19 C9,20.6568542 7.65685425,22 6,22 L6,22 L4,22 C2.34314575,22 1,20.6568542 1,19 C1,17.3431458 2.34314575,16 4,16 L4,16 L6,16 C6.77911599,16 7.48886354,16.2970016 8.02220087,16.783963 C8.70401739,16.2101882 9.26166752,15.4929059 9.64846877,14.6787289 C8.66998098,14.1838846 8,13.1701835 8,12 C8,10.8298165 8.66998098,9.81611543 9.64727524,9.32156451 C9.26166752,8.50709411 8.70401739,7.78981178 8.02184946,7.21575512 C7.48886354,7.70299842 6.77911599,8 6,8 L6,8 L4,8 C2.34314575,8 1,6.65685425 1,5 C1,3.34314575 2.34314575,2 4,2 L4,2 Z M20,18 L18,18 C17.4477153,18 17,18.4477153 17,19 C17,19.5522847 17.4477153,20 18,20 L20,20 C20.5522847,20 21,19.5522847 21,19 C21,18.4477153 20.5522847,18 20,18 Z M6,18 L4,18 C3.44771525,18 3,18.4477153 3,19 C3,19.5522847 3.44771525,20 4,20 L6,20 C6.55228475,20 7,19.5522847 7,19 C7,18.4477153 6.55228475,18 6,18 Z M20,4 L18,4 C17.4477153,4 17,4.44771525 17,5 C17,5.55228475 17.4477153,6 18,6 L20,6 C20.5522847,6 21,5.55228475 21,5 C21,4.44771525 20.5522847,4 20,4 Z M6,4 L4,4 C3.44771525,4 3,4.44771525 3,5 C3,5.55228475 3.44771525,6 4,6 L6,6 C6.55228475,6 7,5.55228475 7,5 C7,4.44771525 6.55228475,4 6,4 Z"></path></svg></span></button></div><div><button aria-describedby=":r4c8:" aria-haspopup="menu" aria-expanded="false" aria-pressed="false" aria-label="undefined" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs     IconButton-module_root__FfYcw IconButton-module_--emphasis-low__54eT7 Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><g fill="none" fill-rule="evenodd" transform="translate(0 1)"><path fill="#FA0" d="M12,9.66 C14.4615385,6.92690945 15.6923077,4.95548088 15.6923077,3.74571429 C15.6923077,1.93106439 14.0392052,0.46 12,0.46 C9.96079477,0.46 8.30769231,1.93106439 8.30769231,3.74571429 C8.30769231,4.95548088 9.53846154,6.92690945 12,9.66 Z"></path><path fill="#3DCC3D" d="M18.1452883,14.1099306 C20.6068267,11.37684 21.837596,9.40541144 21.837596,8.19564484 C21.837596,6.38099495 20.1844935,4.90993056 18.1452883,4.90993056 C16.106083,4.90993056 14.4529806,6.38099495 14.4529806,8.19564484 C14.4529806,9.40541144 15.6837498,11.37684 18.1452883,14.1099306 Z" transform="rotate(72 18.145 9.51)"></path><path fill="#0AF" d="M15.797997,21.3100694 C18.2595355,18.5769789 19.4903047,16.6055503 19.4903047,15.3957837 C19.4903047,13.5811338 17.8372022,12.1100694 15.797997,12.1100694 C13.7587918,12.1100694 12.1056893,13.5811338 12.1056893,15.3957837 C12.1056893,16.6055503 13.3364586,18.5769789 15.797997,21.3100694 Z" transform="rotate(144 15.798 16.71)"></path><path fill="#A179F2" d="M8.20200299,21.3100694 C10.6635414,18.5769789 11.8943107,16.6055503 11.8943107,15.3957837 C11.8943107,13.5811338 10.2412082,12.1100694 8.20200299,12.1100694 C6.16279776,12.1100694 4.50969529,13.5811338 4.50969529,15.3957837 C4.50969529,16.6055503 5.74046452,18.5769789 8.20200299,21.3100694 Z" transform="rotate(-144 8.202 16.71)"></path><path fill="#FF4019" d="M5.85471174,14.1099306 C8.3162502,11.37684 9.54701943,9.40541144 9.54701943,8.19564484 C9.54701943,6.38099495 7.89391697,4.90993056 5.85471174,4.90993056 C3.81550651,4.90993056 2.16240405,6.38099495 2.16240405,8.19564484 C2.16240405,9.40541144 3.39317328,11.37684 5.85471174,14.1099306 Z" transform="rotate(-72 5.855 9.51)"></path></g></svg></span></button></div></div></div><div class=" View-module_root__0JKpr _position_1s694_1  radius-module_root__88FeT radius-module_--radius-medium__3NSru  width-module_root__q31bZ  width-module_--type-unit__tHDh0  border-module_root__cl7Mq border-module_--border-neutral-faded__VxJv2 View-module_--bg-white__cB4qP View-module_--shadow-overlay__bMPCY View-module_--padding__5RDjs View-module_--flex__gKArd View-module_--direction-column__FZ7au" style="--rs-view-p-vertical-s: 2; --rs-view-p-horizontal-s: 2; --rs-w-s: 11; --rs-align-s: center; --rs-position-s: absolute;"><button aria-describedby=":r4cc:" data-rs-aligner-target="true" type="button" disabled="" aria-disabled="true" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--disabled__-VJHD Button-module_--icon-only__HErg9 Actionable-module_--disabled__Oicox"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M5.41421356,7.58578644 C5.80473785,7.97631073 5.80473785,8.60947571 5.41421356,9 C5.02368927,9.39052429 4.39052429,9.39052429 4,9 L0.707106781,5.70710678 C0.316582489,5.31658249 0.316582489,4.68341751 0.707106781,4.29289322 L4,1 C4.39052429,0.609475708 5.02368927,0.609475708 5.41421356,1 C5.80473785,1.39052429 5.80473785,2.02368927 5.41421356,2.41421356 L3.82821356,3.99910678 L10.0069348,4 C13.8672069,4 17,7.13885286 17,11 C17,14.8663028 13.8721609,18 10.009763,18 L6,18 C5.44771525,18 5,17.5522847 5,17 C5,16.4477153 5.44771525,16 6,16 L10.009763,16 C12.7667528,16 15,13.7625702 15,11 C15,8.24255811 12.7617713,6 10.0069348,6 L3.82721356,5.99910678 L5.41421356,7.58578644 Z" transform="matrix(-1 0 0 1 20 2)"></path></svg></span></span></span></button><button aria-describedby=":r4ce:" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M9.41421356,9.58578644 C9.80473785,9.97631073 9.80473785,10.6094757 9.41421356,11 C9.02368927,11.3905243 8.39052429,11.3905243 8,11 L8,11 L4.70710678,7.70710678 C4.31658249,7.31658249 4.31658249,6.68341751 4.70710678,6.29289322 L4.70710678,6.29289322 L8,3 C8.39052429,2.60947571 9.02368927,2.60947571 9.41421356,3 C9.80473785,3.39052429 9.80473785,4.02368927 9.41421356,4.41421356 L9.41421356,4.41421356 L7.82821356,5.99910678 L14.0069348,6 C17.8672069,6 21,9.13885286 21,13 C21,16.8663028 17.8721609,20 14.009763,20 L10,20 C9.44771525,20 9,19.5522847 9,19 C9,18.4477153 9.44771525,18 10,18 L14.009763,18 C16.7667528,18 19,15.7625702 19,13 C19,10.2425581 16.7617713,8 14.0069348,8 L7.82721356,7.99910678 Z"></path></svg></span></span></span></button></div><div class=" View-module_root__0JKpr  radius-module_root__88FeT radius-module_--radius-medium__3NSru  width-module_root__q31bZ  width-module_--type-unit__tHDh0  height-module_root__mhZBQ  height-module_--type-unit__nV--F View-module_--bg-white__cB4qP View-module_--shadow-overlay__bMPCY View-module_--padding__5RDjs View-module_--flex__gKArd View-module_--direction-column__FZ7au" style="--rs-view-p-vertical-s: 1; --rs-view-p-horizontal-s: 1; --rs-w-s: 11; --rs-h-s: 11; --rs-inset-bottom-s: 5; --rs-inset-end-s: 5; --rs-align-s: center; --rs-justify-s: center; --rs-position-s: absolute;"><div><button aria-haspopup="menu" aria-expanded="false" aria-pressed="false" aria-label="undefined" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs     IconButton-module_root__FfYcw IconButton-module_--emphasis-low__54eT7 Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 Z M12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 Z M11.859375,16.5600586 C12.6108398,16.5600586 13.2045898,17.1352539 13.2045898,17.8681641 C13.2045898,18.6010742 12.6108398,19.1855469 11.859375,19.1855469 C11.1079102,19.1855469 10.5048828,18.6010742 10.5048828,17.8681641 C10.5048828,17.1352539 11.1079102,16.5600586 11.859375,16.5600586 Z M12.1933594,5.50146484 C14.7075195,5.50146484 16.4331055,6.93017578 16.4331055,9.02685547 C16.4331055,10.4462891 15.7280273,11.4204102 14.4663086,12.171875 C13.2509766,12.8769531 12.9541016,13.3222656 12.8798828,14.1665039 C12.7871094,14.7788086 12.4716797,15.1591797 11.8408203,15.1591797 C11.1357422,15.1591797 10.7460938,14.6582031 10.7460938,13.980957 L10.7460938,13.8046875 C10.7460938,12.6542969 11.3212891,11.8935547 12.480957,11.2070312 C13.6313477,10.5112305 14.0209961,10.0009766 14.0209961,9.11035156 C14.0209961,8.09912109 13.2324219,7.39404297 12.0913086,7.39404297 C11.0615234,7.39404297 10.375,7.90429688 10.078125,8.84130859 C9.87402344,9.41650391 9.53076172,9.6484375 9.02050781,9.6484375 C8.38037109,9.6484375 8,9.25878906 8,8.63720703 C8,8.23828125 8.08349609,7.89501953 8.25976562,7.54248047 C8.83496094,6.28076172 10.2822266,5.50146484 12.1933594,5.50146484 Z"></path></svg></span></span></button></div></div><div class=" View-module_root__0JKpr _visualization-toolbar_1ooo4_1  radius-module_root__88FeT radius-module_--radius-medium__3NSru  height-module_root__mhZBQ  height-module_--type-unit__nV--F  border-module_root__cl7Mq border-module_--border-neutral-faded__VxJv2 View-module_--bg-white__cB4qP View-module_--shadow-overlay__bMPCY View-module_--divided__wlENA View-module_--padding__5RDjs View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 2; --rs-view-p-vertical-s: 2; --rs-view-p-horizontal-s: 2; --rs-h-s: 11; --rs-inset-bottom-s: 5; --rs-inset-start-s: 5; --rs-align-s: center; --rs-position-s: absolute;"><div class=" View-module_root__0JKpr  radius-module_root__88FeT radius-module_--radius-circular__lhYtz View-module_--bg-neutral-faded__rZA8h View-module_--padding__5RDjs View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 1; --rs-view-p-vertical-s: 1; --rs-view-p-horizontal-s: 2; --rs-align-s: center; --rs-position-s: relative;"><div class=" View-module_root__0JKpr _mode-switcher-thumb_1ooo4_40 _--switched_1ooo4_49" style="--rs-position-s: absolute;"></div><button aria-describedby=":r4ck:" role="switch" value="off" aria-checked="false" aria-label="Use Outline Mode" type="button" class=" Actionable-module_root__E1LVq Actionable-module_--radius-inherit__cSTYW"><div class=" View-module_root__0JKpr  radius-module_root__88FeT radius-module_--radius-circular__lhYtz View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 1;"><div class=" View-module_root__0JKpr _mode-switcher-button_1ooo4_31 View-module_--padding__5RDjs" style="--rs-view-p-vertical-s: 1; --rs-view-p-horizontal-s: 1;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M14.1715729,1 C14.7020059,1 15.2107137,1.21071368 15.5857864,1.58578644 L21.4142136,7.41421356 C21.7892863,7.78928632 22,8.29799415 22,8.82842712 L22,20 C22,21.6568542 20.6568542,23 19,23 L5,23 C3.34314575,23 2,21.6568542 2,20 L2,4 C2,2.34314575 3.34314575,1 5,1 L14.1715729,1 Z M14,3 L5,3 C4.44771525,3 4,3.44771525 4,4 L4,20 C4,20.5522847 4.44771525,21 5,21 L19,21 C19.5522847,21 20,20.5522847 20,20 L20,9 C20,8.44771525 19.5522847,8 19,8 L16,8 C15.4477153,8 15,7.55228475 15,7 L15,4 C15,3.44771525 14.5522847,3 14,3 Z"></path></svg></span></div><div class=" View-module_root__0JKpr _mode-switcher-button_1ooo4_31 _--selected_1ooo4_36  radius-module_root__88FeT radius-module_--radius-circular__lhYtz View-module_--padding__5RDjs" style="--rs-view-p-vertical-s: 1; --rs-view-p-horizontal-s: 1;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M6,2 C7.65685425,2 9,3.34314575 9,5 C9,5.33285018 8.9457934,5.65303974 8.8457265,5.95222238 C9.84659583,6.75422112 10.6439879,7.80044787 11.148103,9.00027892 L12.851897,9.00027892 C13.3560121,7.80044787 14.1534042,6.75422112 15.1543568,5.951315 C15.0542066,5.65303974 15,5.33285018 15,5 C15,3.34314575 16.3431458,2 18,2 L18,2 L20,2 C21.6568542,2 23,3.34314575 23,5 C23,6.65685425 21.6568542,8 20,8 L20,8 L18,8 C17.220884,8 16.5111365,7.70299842 15.9777991,7.21603703 C15.2959826,7.78981178 14.7383325,8.50709411 14.3515312,9.32127105 C15.330019,9.81611543 16,10.8298165 16,12 C16,13.1701835 15.330019,14.1838846 14.3527248,14.6784355 C14.7383325,15.4929059 15.2959826,16.2101882 15.9781505,16.7842449 C16.5111365,16.2970016 17.220884,16 18,16 L18,16 L20,16 C21.6568542,16 23,17.3431458 23,19 C23,20.6568542 21.6568542,22 20,22 L20,22 L18,22 C16.3431458,22 15,20.6568542 15,19 C15,18.6671498 15.0542066,18.3469603 15.1542735,18.0477776 C14.1536813,17.2460011 13.3564536,16.2001313 12.8523157,15.0007174 L11.1476843,15.0007174 C10.6435464,16.2001313 9.84631874,17.2460011 8.84564317,18.048685 C8.9457934,18.3469603 9,18.6671498 9,19 C9,20.6568542 7.65685425,22 6,22 L6,22 L4,22 C2.34314575,22 1,20.6568542 1,19 C1,17.3431458 2.34314575,16 4,16 L4,16 L6,16 C6.77911599,16 7.48886354,16.2970016 8.02220087,16.783963 C8.70401739,16.2101882 9.26166752,15.4929059 9.64846877,14.6787289 C8.66998098,14.1838846 8,13.1701835 8,12 C8,10.8298165 8.66998098,9.81611543 9.64727524,9.32156451 C9.26166752,8.50709411 8.70401739,7.78981178 8.02184946,7.21575512 C7.48886354,7.70299842 6.77911599,8 6,8 L6,8 L4,8 C2.34314575,8 1,6.65685425 1,5 C1,3.34314575 2.34314575,2 4,2 L4,2 Z M20,18 L18,18 C17.4477153,18 17,18.4477153 17,19 C17,19.5522847 17.4477153,20 18,20 L20,20 C20.5522847,20 21,19.5522847 21,19 C21,18.4477153 20.5522847,18 20,18 Z M6,18 L4,18 C3.44771525,18 3,18.4477153 3,19 C3,19.5522847 3.44771525,20 4,20 L6,20 C6.55228475,20 7,19.5522847 7,19 C7,18.4477153 6.55228475,18 6,18 Z M20,4 L18,4 C17.4477153,4 17,4.44771525 17,5 C17,5.55228475 17.4477153,6 18,6 L20,6 C20.5522847,6 21,5.55228475 21,5 C21,4.44771525 20.5522847,4 20,4 Z M6,4 L4,4 C3.44771525,4 3,4.44771525 3,5 C3,5.55228475 3.44771525,6 4,6 L6,6 C6.55228475,6 7,5.55228475 7,5 C7,4.44771525 6.55228475,4 6,4 Z"></path></svg></span></div></div></button></div><div class=" View-module_divider__Rivql"><div role="separator" aria-orientation="vertical" class=" Divider-module_root__f17xJ Divider-module_--blank__06RQg Divider-module_--vertical__R6JX6"></div></div><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 1; --rs-align-s: center;"><button aria-describedby=":r4cm:" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><rect width="18" height="2" x="3" y="11" fill="currentColor" fill-rule="evenodd" rx="1"></rect></svg></span></span></button><button aria-haspopup="menu" aria-expanded="false" type="button" class=" Actionable-module_root__E1LVq Actionable-module_--radius-inherit__cSTYW"><div class=" View-module_root__0JKpr  minWidth-module_root__yntXo  minWidth-module_--type-unit__fl9mD View-module_--flex__gKArd View-module_--direction-column__FZ7au" style="--rs-min-w-s: 10; --rs-align-s: center;">60%</div></button><button aria-describedby=":r4cq:" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" fill-rule="evenodd" d="M13,4 L13,10 C13,10.5522847 13.4477153,11 14,11 L20,11 C20.5522847,11 21,11.4477153 21,12 C21,12.5522847 20.5522847,13 20,13 L14,13 C13.4477153,13 13,13.4477153 13,14 L13,20 C13,20.5522847 12.5522847,21 12,21 C11.4477153,21 11,20.5522847 11,20 L11,14 C11,13.4477153 10.5522847,13 10,13 L4,13 C3.44771525,13 3,12.5522847 3,12 C3,11.4477153 3.44771525,11 4,11 L10,11 C10.5522847,11 11,10.5522847 11,10 L11,4 C11,3.44771525 11.4477153,3 12,3 C12.5522847,3 13,3.44771525 13,4 Z"></path></svg></span></span></button></div><div class=" View-module_divider__Rivql"><div role="separator" aria-orientation="vertical" class=" Divider-module_root__f17xJ Divider-module_--blank__06RQg Divider-module_--vertical__R6JX6"></div></div><div class=" View-module_root__0JKpr View-module_--flex__gKArd View-module_--direction-row__nqF5t" style="--rs-view-gap-s: 1; --rs-align-s: center;"><div class=" Hidden-module_root__5V3xG"><div aria-describedby=":r4cs:" class=" View-module_root__0JKpr"><button aria-describedby=":r4cs:" aria-pressed="false" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.99998 1.33337C8.36817 1.33337 8.66665 1.63185 8.66665 2.00004V3.33337C8.66665 3.34924 8.66609 3.36499 8.665 3.38058C10.7103 3.67205 12.3284 5.29032 12.6198 7.33604L12.6666 7.33337H14C14.3682 7.33337 14.6666 7.63185 14.6666 8.00004C14.6666 8.36823 14.3682 8.66671 14 8.66671H12.6666C12.6507 8.66671 12.6349 8.66615 12.6192 8.66504C12.328 10.7101 10.7101 12.3281 8.66465 12.6197L8.66665 12.6667V14C8.66665 14.3682 8.36817 14.6667 7.99998 14.6667C7.63179 14.6667 7.33331 14.3682 7.33331 14V12.6667C7.33331 12.6507 7.33387 12.6349 7.33498 12.6192C5.29026 12.3284 3.67199 10.7103 3.38029 8.66471L3.33331 8.66671H1.99998C1.63179 8.66671 1.33331 8.36823 1.33331 8.00004C1.33331 7.63185 1.63179 7.33337 1.99998 7.33337H3.33331C3.34927 7.33337 3.3651 7.33394 3.38078 7.33504C3.67163 5.2901 5.29004 3.6717 7.33598 3.38025L7.33331 3.33337V2.00004C7.33331 1.63185 7.63179 1.33337 7.99998 1.33337ZM7.99998 4.66671C6.15903 4.66671 4.66665 6.15909 4.66665 8.00004C4.66665 9.84099 6.15903 11.3334 7.99998 11.3334C9.84093 11.3334 11.3333 9.84099 11.3333 8.00004C11.3333 6.15909 9.84093 4.66671 7.99998 4.66671ZM7.99998 6.00004C9.10455 6.00004 9.99998 6.89547 9.99998 8.00004C9.99998 9.10461 9.10455 10 7.99998 10C6.89541 10 5.99998 9.10461 5.99998 8.00004C5.99998 6.89547 6.89541 6.00004 7.99998 6.00004Z" fill="currentColor"></path></svg></span></button></div></div><button aria-describedby=":r4cu:" data-rs-aligner-target="true" type="button" class=" Actionable-module_root__E1LVq  Button-module_root__zokHs   Button-module_root__Q2R8- Button-module_--color-neutral__WOav7 Button-module_--color-neutral__GFQlx Button-module_--variant-ghost__XsE6R  Button-module_--size-small__7xcCM Button-module_--icon-only__HErg9"><span aria-hidden="true" class=" Icon-module_root__x15-p  Button-module_icon__KeFnP  height-module_root__mhZBQ  height-module_--type-unit__nV--F Icon-module_--auto__Ov125" style="--rs-h-s: 4;"><span aria-hidden="true" class=" Icon-module_root__x15-p  height-module_root__mhZBQ  height-module_--type-unit__nV--F" style="--rs-h-s: 4;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%"><g fill="none" fill-rule="evenodd"><polyline stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="16 3 21 3 21 8"></polyline><polyline stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="3 3 8 3 8 8" transform="matrix(-1 0 0 1 11 0)"></polyline><polyline stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="16 16 21 16 21 21" transform="matrix(1 0 0 -1 0 37)"></polyline><polyline stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="3 16 8 16 8 21" transform="rotate(180 5.5 18.5)"></polyline><circle cx="12" cy="12" r="3" fill="currentColor"></circle></g></svg></span></span></button></div></div><style>@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('JetBrains Mono'), url(https://www.mindmeister.com/fonts/JetbrainsMono/JetBrainsMono-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Kalam';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Kalam'), url(https://www.mindmeister.com/fonts/Kalam/Kalam-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Lora'), url(https://www.mindmeister.com/fonts/Lora/Lora-Regular.woff) format('woff');
+}</style></div></div></div></div><div class="kr-view"></div></div></div></div><script>(function () {
+                var language = navigator.language;
+
+                document.documentElement.setAttribute('lang', language);
+                document.documentElement.setAttribute('xml:lang', language);
+            })();
+            if (global === undefined) {
+                var global = window;
+            }</script><div style="
+        top: -9999px;
+        right: -9999px;
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        overflow: scroll;
+        -ms-overflow-style: scrollbar;
+    "><div style="
+        width: 100%;
+        height: 130px;
+    "></div></div></body></html>
