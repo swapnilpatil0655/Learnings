@@ -1,18 +1,3 @@
-# Pyhon Syllabus
-## 1. Basic pyton
-### 1.1 basic
-### 1.2 Variables 
-### 1.3 Datatypes
-### 1.4 Operaters
-### Assignment_And_Solutions
-## 2. Conditional Statements
-### 2.1 Conditional_statements
-### 2.2 Loops
-### Assginment_And_Solutions
-## 3. Inbuilt data structure
-## 4. Function in python
-
-
 # 🐍 Python Syllabus
 
 ---
@@ -22,7 +7,7 @@
 
 <br>
 
-### 1.1 Introduction to Python
+### 1.1 Introduction
 - What is Python?
 - Features of Python
 - Installation & Setup
@@ -37,10 +22,7 @@
 - float
 - str
 - bool
-- list
-- tuple
-- set
-- dict
+- type() function
 
 ### 1.4 Operators
 - Arithmetic Operators
@@ -50,7 +32,7 @@
 - Membership Operators
 
 ### 📘 Assignment & Solutions
-Practice problems and their solutions related to Basic Python.
+Practice questions and their solutions related to Basic Python.
 
 </details>
 
@@ -75,7 +57,66 @@ Practice problems and their solutions related to Basic Python.
 - pass
 
 ### 📘 Assignment & Solutions
-Practice problems and solutions for Conditionals & Loops.
+Practice questions and solutions for Conditionals & Loops.
+
+</details>
+
+---
+
+<details>
+<summary><strong>3️⃣ Inbuilt Data Structures</strong></summary>
+
+<br>
+
+### List
+- Creating lists
+- Indexing & slicing
+- List methods
+
+### Tuple
+- Creating tuples
+- Immutability
+- Tuple operations
+
+### Set
+- Creating sets
+- Set operations
+- Unique elements
+
+### Dictionary
+- Key-value pairs
+- Accessing values
+- Dictionary methods
+
+### 📘 Assignment & Solutions
+Practice problems on data structures.
+
+</details>
+
+---
+
+<details>
+<summary><strong>4️⃣ Functions in Python</strong></summary>
+
+<br>
+
+### Function Basics
+- Defining functions
+- Calling functions
+- Parameters & Arguments
+
+### Types of Arguments
+- Positional arguments
+- Keyword arguments
+- Default arguments
+- *args and **kwargs
+
+### Return Statement
+- Returning values
+- Multiple returns
+
+### 📘 Assignment & Solutions
+Practice questions on functions.
 
 </details>
 
