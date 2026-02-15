@@ -68,22 +68,22 @@ Practice questions and solutions for Conditionals & Loops.
 
 <br>
 
-### List
+### 3.1 List
 - Creating lists
 - Indexing & slicing
 - List methods
 
-### Tuple
+### 3.2 Tuple
 - Creating tuples
 - Immutability
 - Tuple operations
 
-### Set
+### 3.3 Set
 - Creating sets
 - Set operations
 - Unique elements
 
-### Dictionary
+### 3.4 Dictionary
 - Key-value pairs
 - Accessing values
 - Dictionary methods
