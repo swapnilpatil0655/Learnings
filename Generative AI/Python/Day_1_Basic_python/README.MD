@@ -125,7 +125,32 @@ Used in low-level programming.
 
 ---
 
-# 🔥 Important Formula
+<div style="border: 6px solid green; padding: 15px; border-radius: 8px;">
 
-Python follows this identity:
+---
+
+# 📌 Conclusion
+
+## 🎯 Most Important Operators for Data Roles
+
+Focus on mastering:
+
+- Arithmetic: `+ - * / // % **`
+- Comparison: `== != > < >= <=`
+- Logical: `and or not`
+- Membership: `in`
+- Assignment: `=`
+
+---
+
+## 🚀 Author : Swapnil Patil
+
+Created as part of Python learning journey.
+
+🔗 GitHub: <a href="https://github.com/swapnilpatil0655">https://github.com/swapnilpatil0655</a>
+
+</div>
+
+
+
 
