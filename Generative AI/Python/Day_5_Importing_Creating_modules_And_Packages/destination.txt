@@ -1,0 +1,6 @@
+Hello you can copy this file using :
+import shutil
+shutil.copy('origin_file','destination.file')
+
+origin_file = source.txt
+destination_file = 
