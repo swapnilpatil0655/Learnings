@@ -1,0 +1,9 @@
+Hello world!
+/n is for new line.
+Append operating is for adding the new line without overwriting.
+First line 
+Second line 
+Third line
+First line 
+Second line 
+Third line
