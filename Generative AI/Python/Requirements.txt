@@ -1,0 +1,14 @@
+ipykernel
+numpy
+
+# Open new terminal and run the following command to install the required packages
+
+# set terminal to the current folder where the requirements.txt file is located and run the below command. 
+# cd and folder name to go specific folder. cd.. to go back one step.
+
+
+# pip install -r Requirements.txt
+# OR 
+# pip install ipykernel
+# pip install numpy
+# we can install the packages one by one as well.
