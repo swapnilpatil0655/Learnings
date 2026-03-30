@@ -1,0 +1,4 @@
+A generator in Python is a special kind of iterator that produces values one at a time instead of storing them all in memory at once. 
+It is usually created using a function with the `yield` keyword, which pauses the function and remembers its state between calls. 
+Generators are very useful when working with large datasets, streams of data, or sequences that do not need to be generated all at once, because they are memory-efficient and fast. 
+They allow you to loop through values lazily, meaning each value is created only when needed.
