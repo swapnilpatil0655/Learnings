@@ -1,6 +1,7 @@
 ipykernel
 numpy
 pandas
+matplotlib
 
 # Open new terminal and run the following command to install the required packages
 
