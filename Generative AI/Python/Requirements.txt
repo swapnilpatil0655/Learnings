@@ -3,7 +3,8 @@ numpy
 pandas
 matplotlib
 seaborn
-
+streamlit
+scikit-learn
 # Open new terminal and run the following command to install the required packages
 
 # set terminal to the current folder where the requirements.txt file is located and run the below command. 
