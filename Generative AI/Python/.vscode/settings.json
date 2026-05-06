@@ -1,6 +1,7 @@
 {
     "vsicons.presets.angular": true,
     "cSpell.words": [
-        "Matplotlib"
+        "Matplotlib",
+        "Streamlit"
     ]
 }
